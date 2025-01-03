@@ -75,3 +75,11 @@ I am a **Data Scientist** with a strong passion for **Machine Learning** and **A
 - **Email**: vijayreddymopuru@gmail.com
 - **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/vijaymunireddy)
 - **GitHub**: [GitHub Profile](https://github.com/vijay1612)
+
+- <header class="header">
+  <div class="container">
+    <h1>Vijay Muni</h1>
+    <p>Data Scientist | Machine Learning Enthusiast</p>
+    <a href="resume.pdf" class="btn">Download Resume</a>
+  </div>
+</header>
