@@ -37,14 +37,14 @@ I am a **Data Scientist** with a strong passion for **Machine Learning** and **A
 
 ## Experience
 
-### **Senior Data Engineer** | **Dot IT Solutions**
+### **Data Scientist** | **Dot IT Solutions**
 *Jan 2023 – Present*
 
 - Built and deployed **data pipelines** using **Apache Spark** and **AWS Glue**.
 - Led a team to implement **cloud-native data solutions** on AWS and GCP.
 - Designed data models for large-scale, real-time data analytics.
 
-### **Machine Learning Intern** | **XYZ Technologies**
+### **Machine Learning Intern** | **Dot IT Solutions
 *June 2022 – Dec 2022*
 
 - Developed **machine learning models** for **predictive analytics**.
@@ -72,6 +72,6 @@ I am a **Data Scientist** with a strong passion for **Machine Learning** and **A
 
 ## Contact
 
-- **Email**: vijaymunireddy987@gmail.com
+- **Email**: vijayreddymopuru@gmail.com
 - **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/vijaymunireddy)
 - **GitHub**: [GitHub Profile](https://github.com/vijay1612)
