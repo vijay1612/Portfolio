@@ -3470,7 +3470,7 @@ input, select, textarea {
 
 			#intro {
 				padding: 3rem 2rem 1rem 2rem ;
-				min-height: 80vh;
+				min-height: 60vh;
 			}
 
 				#intro h1 {
@@ -3901,7 +3901,8 @@ input, select, textarea {
 				}
 
 				#main > .posts > * {
-					padding: 2rem;
+					/* padding: 2rem; */
+					padding: 2rem 1.8rem;
 					width: 100%;
 				}
 
@@ -4744,31 +4745,179 @@ input, select, textarea {
     flex-wrap: wrap; /* Allow photos to wrap to the next line if necessary */
 }
 
+@media screen and (max-width: 768px) {
+	.certification-photos.notable-achievements {
+		flex-wrap: nowrap;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	.certification-photos.notable-achievements > a {
+		border-bottom: none;
+	}
+
+	.certification-photos.notable-achievements img {
+		max-width: 80px;
+		width: 100%;
+		height: auto;
+		margin: 0px;
+	}
+}
+
 .certification-photos img {
     width: 150px; /* Adjust the width of the certification photos */
     margin: 30px; /* Adjust margin as needed */
 }
 
+@media screen and (max-width: 768px) {
+	.certification-photos img {
+		flex-wrap: nowrap;
+		align-items: center;
+	}
+}
 
-.top-skills {
-    text-align: center; /* Center-align the text */
-    margin-top: 50px; /* Adjust margin as needed */
+.certification-photos.other-certifications {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	gap: 20px;
+}
+
+.certification-photos.other-certifications > div {
+	flex: 1 1 calc(25% - 20px);
+	text-align: center;
+}
+
+.certification-photos.other-certifications img {
+	width: 100%;
+	max-width: 150px;
+	height: 120px;
+	object-fit: cover;
+}
+
+.certification-photos.other-certifications > div p {
+	margin-top: 10px;
+	font-size: 14px;
+}
+
+@media screen and (max-width: 768px) {
+	.certification-photos.other-certifications {
+		flex-direction: column;
+	}
+	.certification-photos.other-certifications > div {
+		display: flex;
+		align-items: center;
+		flex: 1 1 auto;
+	}
+
+	.certification-photos.other-certifications > div > a {
+		border-bottom: 0;
+		width: 85px;
+		height: 70px;
+		max-height: 80px;
+	}
+
+	.certification-photos.other-certifications > div > a > img {
+		max-width: 85px;
+		width: 85px;
+		height: 100%;
+		margin: 0px;
+		object-fit: cover;
+	}
+	.certification-photos.other-certifications > div p {
+		margin: 0px;
+		padding-left: 20px;
+		line-height: 1.50;
+	}
+}
+
+
+/* .top-skills {
+    text-align: center;
+    margin-top: 50px;
 }
 
 .top-skills h2 {
-    margin-bottom: 20px; /* Adjust margin as needed */
+    margin-bottom: 20px;
 }
 
-.software-photos {
+.top-skills > .software-photos {
     display: flex;
-    justify-content: center; /* Center-align items horizontally */
-    flex-wrap: wrap; /* Allow photos to wrap to the next line if necessary */
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
-.software-photos img {
-    width: auto; /* Adjust the width of the software photos */
-	height: 150px; /* Maintain aspect ratio */
-    margin: 30px; /* Adjust margin as needed */
+.top-skills > .software-photos img {
+    width: auto;
+		height: 150px;
+    margin: 30px;
+} */
+
+.top-skills {
+	text-align: center;
+	margin-top: 50px;
+}
+
+.top-skills h2 {
+	margin-bottom: 20px;
+}
+
+.top-skills > .software-photos {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding-bottom: 20px;
+}
+
+.top-skills > .software-photos img {
+	width: auto;
+	height: 80px;
+	margin: 30px;
+}
+
+.skills-container {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+}
+
+.skills-row {
+	display: flex;
+	justify-content: center;
+}
+
+.skills-row img {
+	margin: 10px;
+}
+
+@media screen and (max-width: 768px) {
+	.skills-container {
+		flex-wrap: wrap;
+		flex-direction: column;
+		align-items: center;
+		gap: 20px;
+		width: 100%;
+	}
+
+	.skills-row {
+		width: 100%;
+	}
+
+	.top-skills > .software-photos .skills-row > img {
+		width: 100%;
+		max-width: 80px;
+		height: auto;
+		margin: 0px 10px;
+		object-fit: contain;
+	}
+
+	.top-skills > .software-photos .skills-row > img:first-child {
+		margin-left: 0;
+	}
+
+	.top-skills > .software-photos .skills-row > img:last-child {
+		margin-right: 0;
+	}
 }
 
 .journey .button {
@@ -5018,6 +5167,12 @@ ul {
 	color: #222222;
 }
 
+@media screen and (max-width: 768px) {
+	.project-heading h3 {
+		font-size: 2.4rem;
+	}
+}
+
 .project-filter {
 	display: flex;
 	justify-content: center;
@@ -5043,3 +5198,13 @@ ul {
 	color: #272727;
 }
 
+@media screen and (max-width: 768px) {
+	.project-filter {
+		padding-left: 0px;
+		flex-wrap: nowrap;
+	}
+
+	.project-filter > li {
+		font-size: 0.8rem;
+	}
+}
