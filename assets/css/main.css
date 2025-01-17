@@ -4797,6 +4797,7 @@ input, select, textarea {
 .certification-photos.other-certifications > div p {
 	margin-top: 10px;
 	font-size: 14px;
+	text-align: center
 }
 
 @media screen and (max-width: 768px) {
@@ -4827,6 +4828,7 @@ input, select, textarea {
 		margin: 0px;
 		padding-left: 20px;
 		line-height: 1.50;
+		text-align: left;
 	}
 }
 
